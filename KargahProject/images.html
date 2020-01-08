@@ -24,6 +24,7 @@
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> -->
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
     <script src="./app.js"></script>
+    <script src="./images.js"></script>
 </head>
 <body>
     <!-- jQuery -->
@@ -64,7 +65,6 @@
         </div>
         <!-- <div class="gap-div" style="height: 100px;"></div> -->
         <div class="row text-center" style="background-color: white; margin: 20px;">
-          
           <img id="preview-image" src="./assets/images/1.jpg" alt="" width="600px" height="600px" style="float: left;"> 
           <div style="float: right; margin: 20px; padding: 20px; width: 400px;" dir="auto">
             <h3 id="preview-title">some text</h3>
@@ -77,12 +77,13 @@
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
           <img class="card-img-top" src="./assets/images/6.jpg" alt="">
-          <div class="card-body">
+          <div class="card-body" id="card-1" title="دور قطبی" 
+          dscr="گردش محور زمین باعث این اتفاق میشه!" src="6.jpg">
             <h4 class="card-title">دور قطبی</h4>
             <p class="card-text">گردش محور زمین باعث این اتفاق میشه !</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">ببینم</a>
+            <p id="1" class="change-button btn btn-primary">ببینم</p>
           </div>
         </div>
       </div>
@@ -90,12 +91,12 @@
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
           <img class="card-img-top" src="./assets/images/1.jpg" alt="">
-          <div class="card-body">
+          <div class="card-body" id="card-2" title="بندر ترکمن" dscr="بندر ترکمن با هیچی" src="1.jpg">
             <h4 class="card-title">بند ترکمن</h4>
             <p class="card-text"></p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">ببینم</a>
+            <p id="2" class="change-button btn btn-primary">ببینم</p>
           </div>
         </div>
       </div>
